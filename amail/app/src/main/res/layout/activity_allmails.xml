@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allmails"
+    android:background="@color/colorAccent">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_recview"
+        android:orientation="horizontal">
+    </android.support.v7.widget.RecyclerView>
+    <com.leinardi.android.speeddial.SpeedDialOverlayLayout
+        android:id="@+id/overlay_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:clickable_overlay="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.leinardi.android.speeddial.SpeedDialView
+        android:id="@+id/speedDial_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/speeddial_scrolling_view_snackbar_behavior"
+        app:sdExpansionMode="top"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:sdMainFabAnimationRotateAngle="90"
+        app:sdMainFabClosedBackgroundColor="@color/colorPrimary"
+        app:sdMainFabClosedSrc="@drawable/ic_add_black_24dp"
+        app:sdMainFabOpenedBackgroundColor="@color/colorPrimary"
+        app:sdMainFabOpenedSrc="@drawable/ic_add_black_24dp"
+        app:sdOverlayLayout="@id/overlay" />
+</RelativeLayout>

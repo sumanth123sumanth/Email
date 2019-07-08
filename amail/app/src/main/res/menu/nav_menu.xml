@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/compose"
+            android:icon="@drawable/ic_mail_black_24dp"
+            android:title="Unread"/>
+    <item android:id="@+id/inbox"
+            android:icon="@drawable/ic_drafts_black_24dp"
+            android:title="Inbox"/>
+    <item android:id="@+id/drafts"
+        android:icon="@drawable/ic_insert_drive_file_black_24dp"
+        android:title="Drafts"/>
+</group>
+    <item android:title="Profile">
+        <menu>
+            <item android:id="@+id/personal"
+                    android:icon="@drawable/ic_person_black_24dp"
+                android:title="Personal Info"/>
+            <item android:id="@+id/contacts"
+                    android:icon="@drawable/ic_phone_black_24dp"
+                android:title="Address-book"/>
+            <item android:id="@+id/kyc"
+                android:icon="@drawable/ic_bookmark_black_24dp"
+                android:title="KYC"/>
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/logout"
+                    android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+
+
+</menu>

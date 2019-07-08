@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "935008272617",
+    "firebase_url": "https://amail-5d88c.firebaseio.com",
+    "project_id": "amail-5d88c",
+    "storage_bucket": "amail-5d88c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935008272617:android:6a881bcd8484ac17",
+        "android_client_info": {
+          "package_name": "com.amrita.amail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935008272617-f4p288m2f7pv6vtqt652uqa8kqac5qj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amrita.amail",
+            "certificate_hash": "75be6bea59b1d10fa6bc31878d3e7b6ae65e3d4a"
+          }
+        },
+        {
+          "client_id": "935008272617-bfj7nbt6q8ue3sv92k8abt1fjekqcd2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9tcVuPK6frUMK5EahFfRj3kR0ufO5i6Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935008272617-bfj7nbt6q8ue3sv92k8abt1fjekqcd2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
